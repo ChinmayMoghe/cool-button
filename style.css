@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cool-div {
+  background-color: rgb(212, 76, 76);
+  color: white;
+  width: 100vw;
+  height: 70vh;
+  margin-top: 30vh;
+  position: absolute;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+  overflow: auto;
+}
+.hide {
+  display: none;
+}
+cool-button {
+  position: absolute;
+}
+ul > li {
+  list-style: disc outside none;
+  display: list-item;
+  margin-left: 1.2em;
+  margin-top: 10px;
+  text-align: justify;
+}
+a {
+  color: white;
+}
+a:hover {
+  color: yellow;
+}
+code {
+  background-color: rgb(56, 52, 52);
+}
