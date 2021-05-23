@@ -3,6 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+h2,
+h3 {
+  margin: 1rem 0;
+}
+
+h3 {
+  text-align: justify;
+  margin-left: 2rem;
+}
+
 .cool-div {
   background-color: rgb(212, 76, 76);
   color: white;
@@ -22,11 +32,12 @@ cool-button {
   position: absolute;
 }
 ul > li {
+  width: 80%;
   list-style: disc outside none;
   display: list-item;
-  margin-left: 1.2em;
-  margin-top: 10px;
+  margin: 1rem 0 0 1.5rem;
   text-align: justify;
+  padding: 0 1rem;
 }
 a {
   color: white;
